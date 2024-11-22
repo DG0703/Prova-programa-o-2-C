@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSpot</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+<header>
+    <h1>Gamespot</h1>
+    <h2>Bem vindo a nossa loja de jogos!</h2>
+</header>
+
+<nav>
+    <a><img src="imagens/Usuario.svg" alt="Meu perfil"></a>
+    <a href="#home">Início</a>
+    <a href="#novidades">Novidades</a>
+    <a href="#promoções">Promoções</a>
+    <a href="#contato">Contato</a>
+    <input type="search" class="Pesquisa" placeholder="Pesquisar...">
+    
+</nav>
+
+<!-- Conteúdo principal aqui -->
+
+ <section class="banner">
+<div><h2> Se divirta explorando nossa biblioteca.</h2>
+    <p>A gamespot é um site feito para a compra de de jogos. Logo, possui uma enorme biblioteca de games.</p>
+    <P>VOcê pode a explorar usando a barra de pesquisas na parte superior do site, ou ver uma pquena parte dela abaixo.</P></div>
+
+<img src="imagens/Gaming-amico.png" alt="Menino jogando/Banner PlaceHolder" class="banner_imagem">
+
+</section>
+
+<section class="Slider">
+    <h2 class="Slider">Novos lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="imagens/dbz.jpeg" alt="Capa do jogo Dragonball: Sparking Zero" />
+        <a>Dragonball: Sparking Zero: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/cod 6.jpeg" alt="Capa do jogo Call of Duty: Black ops 6" />
+          <a>Call of Duty: Black ops 6 R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/dragonquest.jpg" alt="Capa do jogo Dragonquest III HD-2d" />
+          <a>Dragonquest III HD-2D: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/silent hill 2.jpg" alt="Capa do jogo Silent Hill 2 Remake" />
+          <a> Silent Hill 2 Remake: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/persona 3 do paraguai.jpeg" alt="Capa do jogo Metaphor: ReFantazio" />
+          <a>Metaphor: ReFantazio: R$XXX,XX</a>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+  </section>
+  <section class="Slider">
+    <h2 class="Slider">Recomendados Para Você</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="imagens/Elden ring.jpeg" alt="Capa do jogo Elden Ring" />
+        <a>Elden Ring: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/Don't starve.jpeg" alt="Capa do jogo Don't Starve Together" />
+          <a>Don't Starve Together: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/DMC5.jpeg" alt="Capa do jogo Devil May Cry V" />
+          <a>Devil May Cry V: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/Armored Peak 6.jpg" alt="Capa do jogo Armored core 6: Fires of rubicon" />
+          <a>Armored core 6: R$XXX,XX</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="imagens/Monster hunter World.jpeg" alt="Capa do jogo Monster Hunter World" />
+          <a>Monster Hunter World: R$XXX,XX</a>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+  </section>
+  
+  <footer>
+    <p>2024 GameSpot. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+</html>

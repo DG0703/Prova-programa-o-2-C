@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-de-fundo);
+}
+header {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    padding: 20px;
+    text-align: center;
+}
+.banner {
+    color: var(--branco);
+    display: flex;
+    align-items: center; 
+    float: center;
+    justify-content: space-around;
+}
+.banner_imagem {
+    box-align: center;
+    float: center;
+    width: 25%;
+}
+nav {
+    background-color: var(--cor-de-fundo2);
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: var(--branco);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav img {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.carrinho{
+    width: 5%;
+}
+nav a:hover {
+    background-color: var(--cor-de-fundo-hover);
+    color: black;
+}
+.Pesquisa {     
+    float: right;
+    display: block;
+    background-color: transparent;;
+    color: var(--branco);
+    text-align: left;
+    padding: 14px 16px;
+    width: 25%;
+    text-decoration: none;
+}
+.Pesquisa ::placeholder{
+    color: var(--branco);
+    text-align: left;
+}
+.Pesquisa:hover {
+    border: 1px solid var(--cor-de-fundo-hover);
+    border-radius: 10px;
+
+}
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+footer {
+    background-color: var(--cor-de-fundo);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
